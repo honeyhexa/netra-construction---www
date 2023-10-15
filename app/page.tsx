@@ -9,7 +9,7 @@ export default function Home() {
       <header className="border-b backdrop-blur-lg bg-white/70 sticky top-0 z-50">
         <PageContaier className="h-20 grid grid-cols-5">
           <div className="col-span-4 md:col-span-1 flex flex-row items-center justify-start">
-            <Brand />
+            <Link href="/"><Brand /></Link>
           </div>
           <div className="hidden md:col-span-3 md:flex flex-row items-center justify-center">
             <nav className="">
@@ -37,7 +37,7 @@ export default function Home() {
           </PageContaier>
           <PageContaier className="py-24 md:py-48">
             <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col gap-8 items-start justify-center">
-              <Text className="text-blue-950 text-4xl md:text-7xl font-extrabold uppercase">We build Homes, <br />Offices and Spaces.</Text>
+              <Text className="text-blue-950 text-4xl md:text-7xl font-black uppercase">We build Homes, <br />Offices and Spaces.</Text>
               <Text className="text-md w-2/3">Witness the evolution of an empty place into a majestic masterpiece as our construction professionals blend expertise, materials, and innovation to create architectural marvels.</Text>
               <div className="flex flex-row gap-8">
                 {/* <button className="border border-black bg-black text-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Get a Quote</button> */}
@@ -101,7 +101,7 @@ export default function Home() {
           <PageContaier className="py-24 md:py-48">
 
             <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col gap-8 items-start justify-center">
-              <Text className="text-blue-950 text-4xl md:text-7xl font-extrabold uppercase">GET IN TOUCH</Text>
+              <Text className="text-blue-950 text-4xl md:text-7xl font-black uppercase">GET IN TOUCH</Text>
               <Text className="text-md w-2/3">Witness the evolution of an empty place into a majestic masterpiece as our construction professionals blend expertise, materials, and innovation to create architectural marvels.</Text>
               <div className="flex flex-row gap-8">
                 {/* <button className="border border-black bg-black text-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Get a Quote</button> */}
@@ -119,7 +119,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="border-t bg-white">
         <PageContaier className="py-8 flex flex-row items-center justify-between">
-          <Brand />
+          <Link href="/"><Brand /></Link>
         </PageContaier>
         <PageContaier className="">
           <div className="border-t mt-20 h-20 flex flex-col gap-2 md:flex-row md:items-center justify-center md:justify-between">
