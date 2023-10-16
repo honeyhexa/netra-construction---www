@@ -23,7 +23,9 @@ export default function Home() {
             </nav>
           </div>
           <div className="col-span-1 flex flex-row items-center justify-end">
-            <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Get&nbsp;a&nbsp;Quote</button>
+            <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">
+              Get&nbsp;a&nbsp;Quote
+            </button>
           </div>
         </PageContaier>
       </header>
@@ -36,12 +38,19 @@ export default function Home() {
             <Guides />
           </PageContaier>
           <PageContaier className="py-24 md:py-48">
-            <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col gap-8 items-start justify-center">
-              <Text className="text-blue-950 text-4xl md:text-7xl font-black uppercase">We build Homes, <br />Offices and Spaces.</Text>
-              <Text className="text-md w-2/3">Witness the evolution of an empty place into a majestic masterpiece as our construction professionals blend expertise, materials, and innovation to create architectural marvels.</Text>
-              <div className="flex flex-row gap-8">
+            <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col items-start justify-center">
+              <Text className="text-slate-400 text-md font-extrabold uppercase">We are netra construction</Text>
+              <Text as="h1" className="mt-4 text-blue-950 text-4xl md:text-7xl font-black uppercase">We build Homes, <br />Offices and Spaces.</Text>
+              <Text className="mt-4 text-md w-2/3">Witness the evolution of an empty place into a majestic masterpiece as our construction professionals blend expertise, materials, and innovation to create architectural marvels.</Text>
+              <div className="mt-12 flex flex-row gap-8">
                 {/* <button className="border border-black bg-black text-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Get a Quote</button> */}
-                <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Book a Call</button>
+                <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex flex-row gap-3 items-center justify-center text-base uppercase font-bold shadow-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="animate-bounce mt-1 w-5 h-5">
+                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                  </svg>
+
+                  Book a Call
+                </button>
               </div>
             </div>
           </PageContaier>
@@ -104,8 +113,13 @@ export default function Home() {
               <Text className="text-blue-950 text-4xl md:text-7xl font-black uppercase">GET IN TOUCH</Text>
               <Text className="text-md w-2/3">Witness the evolution of an empty place into a majestic masterpiece as our construction professionals blend expertise, materials, and innovation to create architectural marvels.</Text>
               <div className="flex flex-row gap-8">
-                {/* <button className="border border-black bg-black text-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Get a Quote</button> */}
-                <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex items-center justify-center text-sm uppercase font-bold shadow-md">Book a Call</button>
+                <button className="border border-blue-950 hover:bg-blue-950 hover:text-white text-blue-950 bg-white h-10 px-4 flex flex-row gap-3 items-center justify-center text-base uppercase font-bold shadow-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="animate-bounce mt-1 w-5 h-5">
+                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                  </svg>
+
+                  Book a Call
+                </button>
               </div>
             </div>
           </PageContaier>
