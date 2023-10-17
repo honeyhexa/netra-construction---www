@@ -49,10 +49,10 @@ export default function Home() {
           <PageContaier className="h-full">
             <Guides />
           </PageContaier>
-          <PageContaier className="hidden md:flex items-center justify-end h-full">
+          <PageContaier className="hidden xl:flex items-center justify-end h-full">
             <Image src="/img/hero-1.png" height="570" width="570" alt="" />
           </PageContaier>
-          <PageContaier className="py-24 md:pt-40 pb-56">
+          <PageContaier className="py-24 md:pt-40 md:pb-56">
             <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col items-start justify-center">
               <Text className="text-slate-400 text-md font-extrabold uppercase">
                 We are netra construction
