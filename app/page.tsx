@@ -49,7 +49,7 @@ export default function Home() {
           <PageContaier className="h-full">
             <Guides />
           </PageContaier>
-          <PageContaier className="flex items-center justify-end h-full">
+          <PageContaier className="hidden md:flex items-center justify-end h-full">
             <Image src="/img/hero-1.png" height="570" width="570" alt="" />
           </PageContaier>
           <PageContaier className="py-24 md:pt-40 pb-56">
