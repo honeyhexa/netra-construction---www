@@ -49,22 +49,22 @@ export default function Home() {
           <PageContaier className="h-full">
             <Guides />
           </PageContaier>
-          <PageContaier className="hidden xl:flex items-center justify-end h-full">
-            <Image src="/img/hero-1.png" height="570" width="570" alt="" />
+          <PageContaier className="hidden lg:flex items-center justify-end h-[42rem]">
+            <Image className="h-full w-fit" src="/img/hero-2.png" height="1024" width="1024" alt="" />
           </PageContaier>
-          <PageContaier className="py-24 md:pt-40 md:pb-56">
+          <PageContaier className="py-24 md:py-48">
             <div className="border-l-4 border-l-blue-950 border-black pl-4 md:pl-8 flex flex-col items-start justify-center">
               <Text className="text-slate-400 text-md font-extrabold uppercase">
                 We are netra construction
               </Text>
               <Text
                 as="h1"
-                className="mt-4 text-blue-950 text-4xl md:text-6xl font-black uppercase"
+                className="mt-4 text-blue-950 text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-black uppercase"
               >
                 We build Homes, <br />
                 Offices and Spaces.
               </Text>
-              <Text className="mt-4 text-md md:w-3/5">
+              <Text className="mt-4 text-md md:w-1/2">
                 Witness the evolution of an empty place into a majestic
                 masterpiece as our construction professionals blend expertise,
                 materials, and innovation to create architectural marvels.
